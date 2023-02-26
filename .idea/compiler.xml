@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="17">
+      <module name="Template.core.model" target="1.8" />
+      <module name="Template.core.model.main" target="1.8" />
+      <module name="Template.core.model.test" target="1.8" />
+      <module name="Template.core.network" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -41,5 +41,11 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.bundles.compose)
+    implementation(libs.androidx.lifecycle.viewModelCompose)
     debugImplementation(libs.bundles.compose.test)
+    implementation(libs.accompanist.pager)
+    implementation(libs.kotlinx.collections)
+    implementation(libs.coil.kt.compose)
+    implementation(project(":core-repository"))
+    implementation(project(":feature:statusPage"))
 }

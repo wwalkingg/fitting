@@ -1,4 +1,3 @@
-//enableFeaturePreview("VERSION_CATALOGS")
 pluginManagement {
     repositories {
         google()
@@ -20,7 +19,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Template"
 include(":app")
-include(":core:network")
 include(":feature:template")
-include(":core:model")
-include(":core:model")
+include(":core-network")
+include(":core-repository")
+include(":feature:statusPage")
+include(":feature:home")
+// components
+include(":swiper")
